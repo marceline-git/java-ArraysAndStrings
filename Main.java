@@ -12,13 +12,5 @@ public class Main {
             sb.append(w);
         }
         System.out.println(sb.toString());
-
-        HM01 hm = new HM01();
-        String[] cities = new String[] {"dublin","seattle","tokyo","sydney","newyork","vancouver"};
-
-        for (String w: cities) {
-            hm.put(w);
-        }
-        hm.get("tokyo");
     }
 }
