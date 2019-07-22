@@ -23,20 +23,4 @@ public class LinkedList {
         }
         return current.value;
     }
-
-    /*
-    public void printNodes(){
-        if (head == null) return;
-        Node current = head;
-        int i = 0;
-        while (current.next != null) {
-            System.out.println("Number " + i + " Node");
-            System.out.println("data: " + current.data);
-            current = current.next;
-            i++;
-        }
-        System.out.println("Number " + i + " Node");
-        System.out.println("data: " + current.data);
-        return;
-    }*/
 }
