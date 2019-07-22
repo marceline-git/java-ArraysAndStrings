@@ -6,7 +6,7 @@ run tests.
 
 ## HM01.java
 HashMap.  
-It needs LinkedList.java and Node.java.
+It needs `LinkedList.java` and `Node.java`.
 
 ### ToDo
 Implement a feature to delete element.
